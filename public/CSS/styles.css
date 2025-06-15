@@ -1,6 +1,7 @@
-.carousel-image {
-  width: 75%;
-  height: auto;
+.carousel-inner img {
+  width: auto;
+  max-height: 500px; /* Or whatever consistent height you prefer */
+  object-fit: cover;
   display: block;
   margin: 0 auto;
 }
