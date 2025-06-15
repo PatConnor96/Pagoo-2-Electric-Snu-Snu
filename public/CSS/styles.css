@@ -1,0 +1,13 @@
+.carousel-image {
+  width: 75%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1);
+  background-color: transparent;
+  width: 3rem;
+  height: 3rem;
+}

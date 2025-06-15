@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pagoo 2: Electric Snu Snu</title>
+  <link rel="stylesheet" href="/CSS/styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <style>
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 0.75rem;
+}
+
+.carousel {
+    width: 100%;
+    position: relative;
+  }
+
+  .carousel-inner {
+    text-align: center;
+  }
+
+  .carousel-inner img {
+    width: 50%;
+    height: auto;
+    display: inline-block;
+    max-width: 100%;
+  }
+
+  @media (max-width: 768px) {
+    .carousel-inner img {
+      width: 90%;
+    }
+  }
+  </style>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/"><img src="/images/arrow-through-heart.svg" alt="moving box" height="20">Pagoo Website 2 - Electric Snu Snu</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/topCities">Cities</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/topCountries">Countries</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              En Espanol??
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Paterico</a></li>
+              <li><a class="dropdown-item" href="#">Necessito Snu Snu</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Contigo, Bonito Caitlinny</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex" role="search" action="/countryCheck" method="POST">
+          <input class="form-control me-2" type="search" name="country" placeholder="Country Check" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Check</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div class="px-4 pt-5 my-5 text-center border-bottom">
+    <h1 class="display-4 fw-bold text-body-emphasis">Representing my love for you in a slightly nicer but raunchier website than the first attempt</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">This is the second Pagoo website - developed 1 day after we began talking again and the day you left Australia again. Nothing makes me happier than talking to you and there is nothing I want more than to be on that plane to Thailand with you and every plane to a new country with you after that. And with that nice sentiment, below is the top countries and cities we should have snu snu in.</p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+        <a href="/topCountries" class="btn btn-primary btn-lg px-4 me-sm-3" role="button">
+          Top Countries We Should Have Snu Snu In
+        </a>
+        <a href="/topCities" class="btn btn-outline-success btn-lg px-4" role="button">
+          Top Cities We Should Have Snu Snu In
+        </a>
+      </div>
+    </div>
+    <div class="overflow-hidden" style="max-height: 30vh;">
+      <div class="container px-5">
+        <img src="/images/IMG_3065 2.JPG" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Best of All Time Dragon Slayer" width="200" height="200" loading="lazy">
+      </div>
+    </div>
+  </div>
+
+  <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+    <div class="feature col">
+      <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+       <img src="/images/person-standing-dress.svg" height="30">
+      </div>
+      <h3 class="fs-2 text-body-emphasis">Magoo</h3>
+      <p>Caitlinny is the most astonishingly stunning person that walks into any room who has miraculously stayed 25 for 6 years and somehow only gets more beautiful. Just a single sight of her sends Alfred to attention so that he may do his job of servicing his girlfriend.</p>
+      <a href="#" class="icon-link">
+        Let's have snu snu!
+     <img src="/images/chevron-right.svg">
+      </a>
+    </div>
+    <div class="feature col">
+      <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+      <img src="/images/person-standing.svg" height="30">
+      </div>
+      <h3 class="fs-2 text-body-emphasis">Paterico</h3>
+      <p>Paterico keeps in shape at all times too so that Caitlinny's beautiful eyes may only experience looking upon other beautiful things. + Caitlinny said no fatties. Alfred longs to be with his girlfriend and will always wait until she is pleasured and finished before allowing himself to.</p>
+      <a href="#" class="icon-link">
+        Snu snu right now!
+        <img src="/images/chevron-right.svg">
+      </a>
+    </div>
+    <div class="feature col">
+      <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+       <img src="/images/arrow-through-heart.svg" height="30">
+      </div>
+      <h3 class="fs-2 text-body-emphasis">Snu Snu!!</h3>
+      <p>So what are you waiting for? Get back to making that world famous snu snu around the world or even right here right now (check for children first). Below is some images to assist with getting in the mood.</p>
+      <a href="#" class="icon-link">
+        Snu snu 100 years of snu snu!
+        <img src="/images/chevron-right.svg">
+      </a>
+    </div>
+  </div>
+
+  <div class="container">
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      </div>
+      
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/images/IMG_7701.JPG" alt="Thiccerico">
+        </div>
+        <div class="carousel-item">
+          <img src="/images/IMG_6470 2.JPG" alt="Countryrico">
+        </div>
+        <div class="carousel-item">
+          <img src="/images/IMG_6599 2.JPG" alt="All Businessrico">
+        </div>
+        <div class="carousel-item">
+          <img src="/images/IMG_7065 2.JPG" alt="Filopaterico">
+        </div>
+      </div>
+  
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>  
+  
+<footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+  <div class="col mb-3">
+    <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none" aria-label="Bootstrap">
+      <svg class="bi me-2" width="40" height="32" aria-hidden="true"><use xlink:href="#bootstrap"></use></svg>
+    </a>
+    <p class="text-body-secondary">© 2025</p>
+  </div>
+
+  <div class="col mb-3">
+
+  </div>
+  
+  <div class="col mb-3">
+    <h5>Section</h5>
+    <ul class="nav flex-column">
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+    </ul>
+  </div>
+
+  <div class="col mb-3">
+    <h5>Section</h5>
+    <ul class="nav flex-column">
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+    </ul>
+  </div>
+
+  <div class="col mb-3">
+    <h5>Section</h5>
+    <ul class="nav flex-column">
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+    </ul>
+  </div>
+</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+</body>
+
+</html>
